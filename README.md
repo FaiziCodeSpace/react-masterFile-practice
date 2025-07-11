@@ -85,3 +85,16 @@ react-masterFile-practice/
 * CSS
 * Git & GitHub
 
+# 📍 Repository Link
+```
+https://github.com/FaiziCodeSpace/react-masterFile-practice.git
+```
+
+### ⚠️ Notes
+* This is not a production project.
+* Some files are experimental — focused purely on concept clarity.
+* This repo is updated daily as part of my MERN learning journey.
+  
+---
+
+ “Consistency and curiosity are my biggest tools.” – Faizan
