@@ -1,0 +1,38 @@
+✅ Props   
+✅ fragment[No outer block or div, inline]
+✅ hooks
+✅ useState
+✅ useEffect
+✅ useRef
+✅ useFormState
+✅ e.target.value
+✅ OnChange
+✅ OnClick
+✅ onChange={(e)=>setUsername(e.target.value)}
+✅ const [email, setEmail] = useState();
+✅ <Props user={username} routine={myRoutine}>
+✅ refVariable.current.{style, focus(), value}.{styling}
+✅ {myRoutine.map((element, index)=>{ return <h1 key={index}>ROUTINE: {element}</h1> })}
+✅ Root array
+✅ forwardRef
+✅ useActionState
+impure components(when you take values outside of components for any functions)
+Pure functions and components
+STYLE: inline, external, module css, styled component 
+Shallow copy and deep copy
+context API
+react-router [npm i react-router]
+what is BrowserRouter? [CSR & History Managment API]
+Difference between Client Side Router(CSR) & Server Side Router(SSR)?
+what is Router?
+what is Routers?
+what is Links?
+setting up navbar
+404 setup
+Nested Navbar
+by default page, by default page for nested route
+Layout Loute
+Route prefix
+Dynamic Routes // :id
+Optional Segment // name? and :id?
+difference between link and navLink // NAVLINK: create active class

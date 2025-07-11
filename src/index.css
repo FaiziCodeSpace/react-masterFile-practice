@@ -1,0 +1,28 @@
+.navbar{
+  justify-content: center;
+}
+.navbar ul{
+  display: flex;
+  max-width: 1fr;
+  flex-direction: row;
+  height: fit-content;
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+}
+.navbar li{
+  background-color: black;
+  padding: 20px 40px;
+  border-radius: 12px;
+}
+.navbar li a{
+  text-decoration: none;
+  color: white;
+}
+
+img{
+  position: absolute;
+  max-width: 10rem;
+  height: 70px;
+  border-radius: 100px;
+}
