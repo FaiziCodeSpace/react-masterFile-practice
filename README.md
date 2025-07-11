@@ -42,3 +42,43 @@ react-masterFile-practice/
 │   │   │   ├── useState.jsx, useref.jsx, useFormState.jsx, useid.jsx, etc.
 │   │   ├── file-5(objects and array setup)/
 │   │   │   ├── array.jsx, child-1.jsx, counting.jsx, derivedState.jsx
+```
+
+🔍 Topics Practiced
+## 🔹 React Fundamentals
+* JSX Syntax and Rendering
+* Functional Components
+* Props and State
+* Dynamic Rendering with Arrays/Objects
+
+🔹 Hooks (file-4)
+useState, useEffect
+
+useRef, useId, useFormState
+
+useTransitionState, useActionState
+
+Forwarding Refs and managing forms
+
+🔹 Styling Approaches (file-3)
+External CSS
+
+Inline Styling
+
+CSS Modules
+
+Tailwind Basics (to be added)
+
+🔹 Context API (contextAPI folder)
+Global State with useContext
+
+Parent-to-child communication with context
+
+Managing nested components
+
+🔹 Forms and Controls (file-1)
+Controlled inputs
+
+Toggle buttons, checkboxes, radios
+
+Form state management
