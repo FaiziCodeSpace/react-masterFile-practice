@@ -1,12 +1,44 @@
-# React + Vite
+# 🧠 React Master File Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository serves as my **main MERN stack practice lab** — where I build, test, and improve all React-related concepts. Every new topic I learn is first implemented here, and then selectively extracted into standalone mini-projects or topic-specific repos.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📁 Project Structure
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+react-masterFile-practice/
+├── src/
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   ├── assets/
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── navbar.jsx
+│   │   ├── navManu.jsx
+│   │   ├── routers.jsx
+│   │   ├── css/
+│   │   │   ├── navbar.css
+│   │   │   ├── style.css
+│   │   │   └── style.module.css
+│   │   ├── contextAPI/
+│   │   │   ├── context.jsx
+│   │   │   ├── contextAPI.jsx
+│   │   │   ├── city.jsx
+│   │   │   ├── country.jsx
+│   │   │   ├── province.jsx
+│   │   │   └── town.jsx
+│   │   ├── CustomHooks/
+│   │   │   ├── customHook.jsx
+│   │   │   └── showCase.jsx
+│   │   ├── file-1/
+│   │   │   ├── input.jsx, output.jsx, props.jsx, checkbox.jsx, etc.
+│   │   ├── file-2/
+│   │   │   ├── useEffect.jsx, clock.jsx, showOrHide.jsx, etc.
+│   │   ├── file-3(style)/
+│   │   │   ├── InternalFile.jsx, ExternalFile.jsx, styleComponent.jsx
+│   │   ├── file-4(Hooks)/
+│   │   │   ├── useState.jsx, useref.jsx, useFormState.jsx, useid.jsx, etc.
+│   │   ├── file-5(objects and array setup)/
+│   │   │   ├── array.jsx, child-1.jsx, counting.jsx, derivedState.jsx
