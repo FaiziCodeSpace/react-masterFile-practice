@@ -43,7 +43,7 @@ react-masterFile-practice/
 │   │   ├── file-5(objects and array setup)/
 │   │   │   ├── array.jsx, child-1.jsx, counting.jsx, derivedState.jsx
 ```
-
+---
 🔍 Topics Practiced
 ## 🔹 React Fundamentals
 * JSX Syntax and Rendering
@@ -72,6 +72,7 @@ react-masterFile-practice/
 * Controlled inputs
 * Toggle buttons, checkboxes, radios
 * Form state management
+---
 
 ## 📌 Daily Workflow
 * All experimentation and practice happens here.
