@@ -72,3 +72,16 @@ react-masterFile-practice/
 * Controlled inputs
 * Toggle buttons, checkboxes, radios
 * Form state management
+
+## 📌 Daily Workflow
+* All experimentation and practice happens here.
+* After completing a topic, I move it to a new mini-repo with a dedicated README.
+* This ensures this repo stays active and modular.
+
+## 🛠 Tech Used
+* React.js
+* JavaScript (ES6+)
+* Vite.js
+* CSS
+* Git & GitHub
+
