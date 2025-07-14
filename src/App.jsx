@@ -41,9 +41,10 @@
 // import Details from "./components/details.jsx";
 // import Business from "./components/business.jsx";
 // import Contact from "./components/contactUs.jsx";
+// import Navbar from "./components/navbar";
+// import Routers from "./components/routers";
 
-import Navbar from "./components/navbar";
-import Routers from "./components/routers";
+import GetTheAPI from "./components/file-7(API)/get";
 
 
 function App(){
@@ -84,8 +85,10 @@ function App(){
         <Revision/>
         <ShowToggle/>
         <ContextAPI/>
-        <Browser/>*/}
-        <Routers/>
+        <Browser/>
+        <Routers/>*/}
+        <GetTheAPI/>
+
       </>
     )
 }

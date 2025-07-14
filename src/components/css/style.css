@@ -6,3 +6,36 @@
     border-radius: 16px;
     margin: 20px;
 }
+
+/* get.jsx  */
+.listContainer {
+  max-width: 600px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+}
+
+.userList {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.userList li {
+  width: 33.33%; 
+  text-align: center;
+}
+
+.userList.header {
+  font-weight: bold;
+  background-color: #007BFF;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.userList:nth-child(even):not(.header) {
+  background-color: #f9f9f9;
+}
