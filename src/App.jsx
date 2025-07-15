@@ -45,6 +45,7 @@
 // import Routers from "./components/routers";
 
 import GetTheAPI from "./components/file-7(API)/get";
+import IntegrateJSONServerAPIAndLoader from "./components/file-7(API)/mockAPIFetch";
 
 
 function App(){
@@ -86,8 +87,9 @@ function App(){
         <ShowToggle/>
         <ContextAPI/>
         <Browser/>
-        <Routers/>*/}
-        <GetTheAPI/>
+        <Routers/>
+        <GetTheAPI/> */}
+        <IntegrateJSONServerAPIAndLoader/>
 
       </>
     )
