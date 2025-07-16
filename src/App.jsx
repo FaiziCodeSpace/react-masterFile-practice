@@ -46,6 +46,7 @@
 
 import GetTheAPI from "./components/file-7(API)/get";
 import IntegrateJSONServerAPIAndLoader from "./components/file-7(API)/mockAPIFetch";
+import PostOnAPI from "./components/file-7(API)/post";
 
 
 function App(){
@@ -88,9 +89,10 @@ function App(){
         <ContextAPI/>
         <Browser/>
         <Routers/>
-        <GetTheAPI/> */}
-        <IntegrateJSONServerAPIAndLoader/>
-
+        <GetTheAPI/> 
+        <IntegrateJSONServerAPIAndLoader/>*/}
+        <PostOnAPI/>
+          
       </>
     )
 }
