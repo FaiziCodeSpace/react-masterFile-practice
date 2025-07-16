@@ -21,7 +21,7 @@ export default function IntegrateJSONServerAPIAndLoader() {
   }
   return (
     <>
-      <h1>Integrate JSON Server API And Loader</h1>
+      <h1 style={{textAlign: "center"}}>Integrate JSON Server API And Loader</h1>
       {
       !loading?
       userData.map((user) => (
@@ -31,8 +31,12 @@ export default function IntegrateJSONServerAPIAndLoader() {
           <li>{user.age}</li>
         </ul>
       ))
-      :
-      <h1>You gotta wait Mister...</h1>
+      :(
+        <div style={{display: 'flex', justifyContent:'center', marginTop: '70px'}}>
+           <img src="/loader.gif" alt="Loading..." />
+           <h1>Loading...</h1>
+        </div>
+  )
     
     }
     
