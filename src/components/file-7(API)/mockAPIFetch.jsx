@@ -18,6 +18,7 @@ export default function IntegrateJSONServerAPIAndLoader() {
     setUserData(data)
     setLoading(false);
     });   
+    
   }
   return (
     <>

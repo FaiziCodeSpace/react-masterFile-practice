@@ -1,9 +1,35 @@
 {
-  "users":[
-    {"id": 1, "name": "John","age":21},
-    {"id": 2, "name": "Peter","age":44},
-    {"id": 3, "name": "Lizabeth","age":20},
-    {"id": 5, "name": "Kenvue","age":32},
-    {"id": 6, "name": "Tailor","age":28}
+  "users": [
+    {
+      "id": "1",
+      "name": "John",
+      "age": 21
+    },
+    {
+      "id": "2",
+      "name": "Peter",
+      "age": 44
+    },
+    {
+      "id": "3",
+      "name": "Lizabeth",
+      "age": 20
+    },
+    {
+      "id": "5",
+      "name": "Kenvue",
+      "age": 32
+    },
+    {
+      "id": "6",
+      "name": "Tailor",
+      "age": 28
+    },
+    {
+      "id": "f7e6",
+      "name": "SUN",
+      "email": "SUN@GMAIL.COM",
+      "age": "22"
+    }
   ]
 }
