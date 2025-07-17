@@ -39,3 +39,48 @@
 .userList:nth-child(even):not(.header) {
   background-color: #f9f9f9;
 }
+
+/* POST  */
+
+.post-Form {
+  width: 100%;
+  max-width: 400px;
+  margin: 150px auto;
+  padding: 24px;
+  background-color: #f9f9f9;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.post-Form input {
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.post-Form input:focus {
+  border-color: #00ff22;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+}
+
+.post-Form button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #00ef20;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.post-Form button:hover {
+  background-color: #00d21c;
+}

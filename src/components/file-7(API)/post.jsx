@@ -18,8 +18,8 @@ export default function PostOnAPI(){
     }
 
     return(<>
-        <form>
-            <input type="text" value={name} onChange={(e)=>setName(e.target.value)} name="username" placeholder="Username"/>
+        <form className="post-Form">
+            <input cla type="text" value={name} onChange={(e)=>setName(e.target.value)} name="username" placeholder="Username"/>
             <input type="email" value={email} onChange={(e)=>setEmail(e.target.value)} name="email" placeholder="Email"/>
             <input type="text" value={age} onChange={(e)=>setAge(e.target.value)} name="age" placeholder="Age"/>
             <button type="submit" onClick={post}>Submit</button>
