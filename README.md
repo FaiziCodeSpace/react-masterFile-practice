@@ -46,7 +46,12 @@ src/
 **`file-7/API/mockAPIFetch.jsx`**  
 → Local JSON Server API integration  
 → `useState` and `useEffect` for async loading simulation  
-→ 🆕 **Loading GIF added** for real-world UI feedback using conditional rendering (implemented via feature branch)
+→ Loading GIF added for real-world UI feedback using conditional rendering
+
+**`file-7/API/PostOnAPI.jsx`**  
+→ API POST request using `fetch()`  
+→ Sends new user data to local JSON Server  
+→ Inputs are handled using `useState` for controlled form submission
 
 ✅ Routing Practice  
 **`file-6(Routes)`**  
