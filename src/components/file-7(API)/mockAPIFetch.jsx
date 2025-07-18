@@ -20,6 +20,18 @@ export default function IntegrateJSONServerAPIAndLoader() {
     });   
     
   }
+
+  async function deleteUser(id){
+    let res = await fetch("http://localhost:3000/users" + "/" + id, {
+      method: 'delete'
+    })
+    res = await res.json();
+    if(res){
+      alert('User Deleted!')
+    }
+    fetchApi();
+  }
+
   return (
     <>
       <h1 style={{textAlign: "center"}}>Users list</h1>
@@ -30,6 +42,7 @@ export default function IntegrateJSONServerAPIAndLoader() {
           <li>{user.id}</li>
           <li>{user.firstName}</li>
           <li>{user.age}</li>
+          <li><button onClick={()=>deleteUser(user.id)}>Delete</button></li>
         </ul>
       ))
       :(
