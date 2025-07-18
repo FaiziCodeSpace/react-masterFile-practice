@@ -43,10 +43,11 @@
 // import Contact from "./components/contactUs.jsx";
 // import Navbar from "./components/navbar";
 // import Routers from "./components/routers";
+// import GetTheAPI from "./components/file-7(API)/get";
+// import IntegrateJSONServerAPIAndLoader from "./components/file-7(API)/mockAPIFetch";
+// import PostOnAPI from "./components/file-7(API)/post";
 
-import GetTheAPI from "./components/file-7(API)/get";
-import IntegrateJSONServerAPIAndLoader from "./components/file-7(API)/mockAPIFetch";
-import PostOnAPI from "./components/file-7(API)/post";
+import Navigator from "./components/file-7(API)/navigator";
 
 
 function App(){
@@ -90,8 +91,9 @@ function App(){
         <Browser/>
         <Routers/>
         <GetTheAPI/> 
-        <IntegrateJSONServerAPIAndLoader/>*/}
-        <PostOnAPI/>
+        <IntegrateJSONServerAPIAndLoader/>
+        <PostOnAPI/>*/}
+        <Navigator/>
           
       </>
     )
