@@ -91,7 +91,7 @@ src/
 - ✅ Real API fetch from dummyjson.com  
 - ✅ JSON Server as mock backend for development  
 - ✅ UI loading behavior using stateful rendering  
-- 🆕 **Loading GIF integration for API delay simulation**  
+- ✅ Loading GIF integration for API delay simulation  
   → Visual feedback added before API completes  
   → Controlled using `loading` state  
   → Implemented as an isolated feature branch (`feature-loading-gif`)
