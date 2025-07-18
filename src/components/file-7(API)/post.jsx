@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { NavLink } from "react-router";
 
 export default function PostOnAPI(){
     const [name, setName] = useState();
@@ -31,5 +32,8 @@ export default function PostOnAPI(){
             <input type="text" value={age} onChange={(e)=>setAge(e.target.value)} name="age" placeholder="Age"/>
             <button type="submit" onClick={post}>Submit</button>
         </form>
+     <NavLink to={"/userslist"}>Users</NavLink>
+        
     </>)
+
 }

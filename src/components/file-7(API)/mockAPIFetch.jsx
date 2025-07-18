@@ -22,7 +22,7 @@ export default function IntegrateJSONServerAPIAndLoader() {
   }
   return (
     <>
-      <h1 style={{textAlign: "center"}}>Integrate JSON Server API And Loader</h1>
+      <h1 style={{textAlign: "center"}}>Users list</h1>
       {
       !loading?
       userData.map((user) => (
@@ -40,6 +40,7 @@ export default function IntegrateJSONServerAPIAndLoader() {
   )
     
     }
+    
     
     </>
   );
