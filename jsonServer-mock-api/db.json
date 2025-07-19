@@ -15,6 +15,12 @@
       "name": "SUN",
       "email": "SUN@GMAIL.COM",
       "age": "22"
+    },
+    {
+      "id": "3571",
+      "name": "Faizan",
+      "email": "faizanwebdev7955@gmail.com",
+      "age": "22"
     }
   ]
 }
