@@ -1,26 +1,28 @@
 {
   "users": [
     {
-      "id": "3",
+      "id": "2fa7",
       "name": "Lizabeth",
-      "age": 20
+      "email": "lizybizzy@gmail.com",
+      "age": "21"
     },
     {
-      "id": "5",
-      "name": "Kenvue",
-      "age": 32
-    },
-    {
-      "id": "f7e6",
-      "name": "SUN",
-      "email": "SUN@GMAIL.COM",
-      "age": "22"
-    },
-    {
-      "id": "3571",
       "name": "Faizan",
-      "email": "faizanwebdev7955@gmail.com",
-      "age": "22"
+      "email": "faiziwebdev1@gmail.com",
+      "age": "22",
+      "id": "33de"
+    },
+    {
+      "id": "e84c",
+      "name": "Peter",
+      "email": "peter@gmail.com",
+      "age": "44"
+    },
+    {
+      "id": "55c6",
+      "name": "Zang",
+      "email": "daZang@gmail.com",
+      "age": "33"
     }
   ]
 }

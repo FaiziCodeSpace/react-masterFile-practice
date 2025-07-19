@@ -44,6 +44,7 @@ export default function IntegrateJSONServerAPIAndLoader() {
         <ul className="userList">
         <li>ID</li>
         <li>FIRST NAME</li>
+        <li>Email</li>
         <li>AGE</li>
         <li>Delete</li>
         <li>Edit</li>
@@ -54,6 +55,7 @@ export default function IntegrateJSONServerAPIAndLoader() {
         <ul key={user.id} className="userList">
           <li>{user.id}</li>
           <li>{user.name}</li>
+          <li>{user.email}</li>
           <li>{user.age}</li>
           <li>
             <button onClick={()=>deleteUser(user.id)}>Delete</button>
