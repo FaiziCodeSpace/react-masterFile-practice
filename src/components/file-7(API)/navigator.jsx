@@ -1,6 +1,7 @@
 import { NavLink, Route, Routes } from "react-router";
 import IntegrateJSONServerAPIAndLoader from "./mockAPIFetch";
 import PostOnAPI from "./post";
+import EditUser from "./edit";
 
 export default function Navigator() {
   return (
@@ -10,11 +11,9 @@ export default function Navigator() {
         <NavLink className={"n-nav"} to={"/newUser"}>New User</NavLink>
       </ul>
       <Routes>
-        <Route
-          path="/userslist"
-          element={<IntegrateJSONServerAPIAndLoader />}
-        />
+        <Route path="/userslist" element={<IntegrateJSONServerAPIAndLoader />}/>
         <Route path="/newUser" element={<PostOnAPI />} />
+        <Route path="/edit/:id" element={<EditUser />} />
       </Routes>
     </>
   );
