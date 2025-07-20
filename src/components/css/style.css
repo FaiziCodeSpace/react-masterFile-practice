@@ -110,3 +110,63 @@
 .edit{
   margin-top: 20px;
 }
+
+/* form Validation  */
+.validation-Form {
+  width: 320px;
+  padding: 25px 30px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.validation-Form input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.validation-Form input:focus {
+  border-color: #00ef20;
+}
+
+.validation-Form input.invalid {
+  border-color: red;
+  background-color: #ffeaea;
+}
+
+.validation-Form p {
+  margin: 0;
+  font-size: 13px;
+  color: red;
+}
+
+.validation-Form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00ef20;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.validation-Form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-wrapper{
+  height: 100vh;              
+  display: flex;
+  justify-content: center;   
+  align-items: center;         
+  background-color: #f9f9f9;  
+}
