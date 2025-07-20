@@ -48,6 +48,7 @@
 // import PostOnAPI from "./components/file-7(API)/post";
 
 import Navigator from "./components/file-7(API)/navigator";
+import FormValidation from "./components/file-8(validations)/formValidation";
 
 
 function App(){
@@ -92,8 +93,9 @@ function App(){
         <Routers/>
         <GetTheAPI/> 
         <IntegrateJSONServerAPIAndLoader/>
-        <PostOnAPI/>*/}
-        <Navigator/>
+        <PostOnAPI/>
+        <Navigator/>*/}
+        <FormValidation/>
           
       </>
     )
