@@ -27,15 +27,17 @@ export default function FormValidation(){
     }
 
     return(<>
-        <form>
-            <input type="text" onChange={ValidateName} placeholder="Enter Your Username" />
-            <span style={{color:"red"}}>{nameErr}</span><br />
+    <div className="form-wrapper">
+        <form className="validation-Form">
+            <input className={nameErr? "invalid": ""} type="text" onChange={ValidateName} placeholder="Enter Your Username" />
+            <p style={{color:"red"}}>{nameErr}</p><br />
 
-            <input type="text" onChange={ValidatePass} placeholder="Enter Your Password" />
-            <span style={{color:"red"}}>{passErr}</span>
+            <input className={passErr? "invalid": ""} type="text" onChange={ValidatePass} placeholder="Enter Your Password" />
+            <p style={{color:"red"}}>{passErr}</p>
 
             <br /><br />
-            <button>Sign In</button>    
-        </form>    
+            <button disabled={nameErr || passErr}>Sign In</button>    
+        </form>
+    </div>    
     </>)
 }
