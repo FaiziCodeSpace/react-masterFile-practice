@@ -67,6 +67,15 @@ src/
 → `PUT` request to update user details on JSON server  
 → Uses controlled inputs with real-time data updates  
 
+**`file-7/API/FormValidation.jsx`**  
+→ Added basic validation for username and password  
+→ Validates length and character types using regex  
+→ Error messages appear conditionally with dynamic state  
+
+**`file-3(style)/formValidationUI.css`**  
+→ Centered the form vertically and improved input spacing  
+→ Styled error messages for visibility and UX  
+
 ✅ **Routing Practice**  
 **`file-6(Routes)/`**  
 → Modular route structure  
@@ -92,6 +101,7 @@ src/
 🔹 **Styling Methods**  
 - Internal, External, and CSS Modules  
 - Tailwind CSS (planned integration)  
+- 🆕 UI refinement for validation form layout and error display  
 
 🔹 **Routing & Navigation**  
 - React Router DOM v6+  
