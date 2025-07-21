@@ -76,11 +76,19 @@ src/
 → Centered the form vertically and improved input spacing  
 → Styled error messages for visibility and UX  
 
+**`file-4(Hooks)/FormValidationActionState.jsx`**  
+→ 🆕 Form validation using `useActionState`  
+→ Progressive field handling with cleaner input flow  
+
+**`file-4(Hooks)/UseReduceForm.jsx`**  
+→ 🆕 Form state managed using `useReducer`  
+→ Centralized reducer logic for multi-field form input  
+
 ✅ **Routing Practice**  
 **`file-6(Routes)/`**  
 → Modular route structure  
 → Conditional rendering of Navbar  
-→ Route-based layout flow and separation  
+→ Route-based layout flow and separation
 
 ---
 
