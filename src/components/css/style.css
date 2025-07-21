@@ -121,7 +121,7 @@
   font-family: Arial, sans-serif;
 }
 
-.validation-Form input {
+.validation-Form input{
   width: 100%;
   padding: 10px 14px;
   border: 2px solid #ccc;
@@ -169,4 +169,36 @@
   justify-content: center;   
   align-items: center;         
   background-color: #f9f9f9;  
+  gap: 2rem;
+}
+
+.r-form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-Output{
+  width: 320px;
+  padding: 25px 30px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+.form-Output p{
+  width: 100%;
+  padding: 10px 14px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  margin-top: 10px;
+  color: #00ef20;
+  overflow: hidden;
+}
+.form-Output p span{
+  color: black;
+  font-weight: 600;
 }
