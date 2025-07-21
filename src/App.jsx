@@ -47,6 +47,7 @@
 // import IntegrateJSONServerAPIAndLoader from "./components/file-7(API)/mockAPIFetch";
 // import PostOnAPI from "./components/file-7(API)/post";
 
+import UseReduceForm from "./components/file-4(Hooks)/useReduce";
 import Navigator from "./components/file-7(API)/navigator";
 import FormValidation from "./components/file-8(validations)/formValidation";
 import FormValidationUASBased from "./components/file-8(validations)/formValidation(UAS based)";
@@ -96,8 +97,9 @@ function App(){
         <IntegrateJSONServerAPIAndLoader/>
         <PostOnAPI/>
         <Navigator/>
-        <FormValidation/>*/}
-        <FormValidationUASBased/>
+        <FormValidation/>
+        <FormValidationUASBased/>*/}
+        <UseReduceForm/>
           
       </>
     )
