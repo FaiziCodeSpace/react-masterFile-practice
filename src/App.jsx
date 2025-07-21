@@ -49,6 +49,7 @@
 
 import Navigator from "./components/file-7(API)/navigator";
 import FormValidation from "./components/file-8(validations)/formValidation";
+import FormValidationUASBased from "./components/file-8(validations)/formValidation(UAS based)";
 
 
 function App(){
@@ -94,8 +95,9 @@ function App(){
         <GetTheAPI/> 
         <IntegrateJSONServerAPIAndLoader/>
         <PostOnAPI/>
-        <Navigator/>*/}
-        <FormValidation/>
+        <Navigator/>
+        <FormValidation/>*/}
+        <FormValidationUASBased/>
           
       </>
     )
