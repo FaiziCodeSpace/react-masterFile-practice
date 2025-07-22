@@ -51,6 +51,7 @@ import UseReduceForm from "./components/file-4(Hooks)/useReduce";
 import Navigator from "./components/file-7(API)/navigator";
 import FormValidation from "./components/file-8(validations)/formValidation";
 import FormValidationUASBased from "./components/file-8(validations)/formValidation(UAS based)";
+import LazyLoading from "./components/lazyLoading/loading";
 
 
 function App(){
@@ -98,8 +99,9 @@ function App(){
         <PostOnAPI/>
         <Navigator/>
         <FormValidation/>
-        <FormValidationUASBased/>*/}
-        <UseReduceForm/>
+        <FormValidationUASBased/>
+        <UseReduceForm/>*/}
+        <LazyLoading/>
           
       </>
     )
