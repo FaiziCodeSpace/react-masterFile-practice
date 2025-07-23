@@ -9,10 +9,12 @@ export default function RGBbox(){
         localStorage.setItem('colors', JSON.stringify({r, g, b}));
     }
     return(<>
-        <div style={{background:'rgb('+r+','+g+','+b+')' ,width:'30vw', height:'30vh', border:'1px solid black'}}></div>
-        <input type="range" value={r} onChange={(e)=>setR(e.target.value)} name="red" min={0} max={255} /><br />
-        <input type="range" value={g} onChange={(e)=>setG(e.target.value)} name="green" min={0} max={255} /><br />
-        <input type="range" value={b} onChange={(e)=>setB(e.target.value)} name="blue" min={0} max={255} /><br />
-        <button onClick={saveColors}>SAVE</button>
+        <div className="Design-box">
+            <div style={{background:'rgb('+r+','+g+','+b+')' , height:'30vh', border:'1px solid black'}}></div>
+            <input type="range" value={r} onChange={(e)=>setR(e.target.value)} name="red" min={0} max={255} />
+            <input type="range" value={g} onChange={(e)=>setG(e.target.value)} name="green" min={0} max={255} />
+            <input type="range" value={b} onChange={(e)=>setB(e.target.value)} name="blue" min={0} max={255} />
+            <button onClick={saveColors}>SAVE</button>
+        </div>
     </>)
 }
