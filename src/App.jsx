@@ -52,6 +52,7 @@ import Navigator from "./components/file-7(API)/navigator";
 import FormValidation from "./components/file-8(validations)/formValidation";
 import FormValidationUASBased from "./components/file-8(validations)/formValidation(UAS based)";
 import LazyLoading from "./components/lazyLoading/loading";
+import RGBbox from "./components/Storage/localStorageMiniPrj";
 import PrintAPI from "./components/use-API/use-API";
 
 
@@ -102,8 +103,9 @@ function App(){
         <FormValidation/>
         <FormValidationUASBased/>
         <UseReduceForm/>
-        <LazyLoading/>*/}
-        <PrintAPI/>
+        <LazyLoading/>
+        <PrintAPI/>*/}
+        <RGBbox/>
           
       </>
     )
